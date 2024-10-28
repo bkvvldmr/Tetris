@@ -5,6 +5,7 @@
 
 using namespace std;
 
+// You win the game if you get OutOfMemory (or whatever it's called in c++ world) error because I'm lazy to create const vectors.
 vector< vector<int> > Block::getRelativeCoordinates() {
     switch (this->type)
     {
